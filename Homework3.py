@@ -2,7 +2,7 @@
 # Date: 22/02/2024
 # Description: Homework 3
 # Grodno IT Academy Python 3.11
-
+# ТЕЕЕЕЕЕЕЕЕЕЕЕЕЕЕст Коммит
 import re
 
 def pairs(numbers_string):
