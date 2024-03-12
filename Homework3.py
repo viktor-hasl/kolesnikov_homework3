@@ -29,6 +29,8 @@ def pairs(numbers_string):
             pairs = int(pairs)
         return pairs
 
+    # Вариант окей, но чутка перегружен, для более короткого - см ответы
+
 
 def uniques(array):
     # Дан список. Выведите те его элементы, которые встречаются в списке только один раз.
@@ -44,6 +46,7 @@ def uniques(array):
         else:
             uniques.append(i)
     return uniques
+    # Все верно
 
 
 def ordered_list(array):
@@ -62,7 +65,7 @@ def ordered_list(array):
             array.append(zero)
 
     return array
-
+    # Все верно
 
 
 def tuple_to_list(in_tuple):
@@ -70,6 +73,7 @@ def tuple_to_list(in_tuple):
     """Просто использую list() обернем наш кортеж"""
     lst = list(in_tuple)
     return lst
+    # Все верно
 
 def euclid(a,b):
     #Даны два натуральных числа. Вычислите их наибольший общий делитель при помощи алгоритма Евклида (мы не знаем функции и рекурсию). can't call itself
@@ -93,6 +97,7 @@ def euclid(a,b):
             b = b % a
             if b == 0:
                 return a
+    # Верно, но можно сильно сократить, см ответы
 
 #Dictionaries
 def cities(input_string):
@@ -157,6 +162,7 @@ def cities(input_string):
     # Получившийся список со странами переводи в строку для вывода
     input_string = '\n'.join(list_)
     return input_string
+    # Окей, можно чуть по-другому, см ответы
 
 #Sets
 def languages(input_string):
@@ -208,6 +214,7 @@ def languages(input_string):
 
     input_string = f'{count_lang_set}\n{lang_repeat}{count_lang}\n{lang_set_str}'
     return input_string
+    # Все работает, круто, что есть регулярки
 
 #Generators
 def list_gen(arr1, arr2):
